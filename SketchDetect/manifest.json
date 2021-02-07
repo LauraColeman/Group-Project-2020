@@ -1,10 +1,14 @@
 {
     "name": "SketchDetect",
-    "version": "1.0",
+    "version": "1.1",
     "description": "Chrome extension designed to notify users of potentially hazardous websites",
     "manifest_version": 2,
 
     "permissions": [
         "tabs"
-    ]
+    ],
+    "background":{
+        "scripts" : ["background.js"],
+        "persistent" : false
+    }
   }
