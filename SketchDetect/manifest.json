@@ -8,6 +8,7 @@
         "tabs"
     ],
     "background":{
+        "run_at": "document_start",
         "scripts" : ["background.js"],
         "persistent" : false
     }
