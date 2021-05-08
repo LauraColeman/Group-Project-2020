@@ -3,11 +3,11 @@ name: Azure Static Web Apps CI/CD
 on:
   push:
     branches:
-      - WebsiteDeploy
+      - WebsiteDeploy/index.html
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - WebsiteDeploy
+      - WebsiteDeploy/index.html
 
 jobs:
   build_and_deploy_job:
