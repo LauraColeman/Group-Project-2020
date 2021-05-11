@@ -1,20 +1,65 @@
+
+
+
+
 /*!
- * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template/scrolling-nav)
- * Copyright 2013-2020 Start Bootstrap
- * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ CONTENTS
+ 
+----------------------
+
+1.Default CSS
+2.Header
+3.Section Background Styling
+
  */
+
+
+
+/*========DEFAULT CSS============*/
+
+    
+    
+
+.footer-custom{
+    background-color:lightskyblue;
+    
+    
+    
+}
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+    color: whitesmoke;
+}
+
+.lead{
+    color: whitesmoke;
+}
+
+
+/*========HEADER============*/
 header {
   padding: 156px 0 100px;
 }
 
-section {
-  padding: 150px 0;
+
+#title{
+    color: #ff3300;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 65px;
+}
+
+
+#titleCap{
+    color: #ff3300;
+    
 }
 
 #Home
 {
   background-image:url(banner.jpg);
     background-position: center;
+    
 
       
 }
@@ -23,15 +68,13 @@ hr.solid {
   border-top: 3px solid #bbb;
 }
 
-body{
-    background-color:aliceblue;
-    color: whitesmoke;
-}
 
-.footer-custom{
-    background-color:;
-    
-    
+
+/*========SECTIONS STILYING============*/
+
+
+section {
+  padding: 150px 0;
 }
 
 .lower-section,
@@ -46,7 +89,7 @@ body{
 .upper-section {
   min-height: 50vh;
   width: 100%;
-  background: #9ECBC7;
+  background: cadetblue;
 }
 .lower-section{
   min-height: 50vh;
@@ -71,3 +114,6 @@ body{
       text-indent: 1.75rem;
       font-size: 3rem;
     }
+
+
+/*=====================================*/
